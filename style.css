@@ -1,0 +1,32 @@
+#page-content {
+    width: 100vw;
+  }
+  
+  #floating {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    flex-direction: column;
+  }
+  
+  #inner {
+    width: 50vw;
+  }
+  
+  body {
+    background-color: #E7ECEF;
+  }
+  
+  p {
+    font-family: 'Poppins';
+    font-weight: 400;
+    color: #272932;
+  }
+  
+  h2 {
+    font-family: 'Poppins';
+    font-weight: 800;
+    color: #272932;
+  }
+  
