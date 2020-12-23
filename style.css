@@ -61,4 +61,5 @@
     visibility: visible;
     -webkit-transform: scaleX(0);
     transform: scaleX(0);
+    text-decoration-style: wavy
   }
