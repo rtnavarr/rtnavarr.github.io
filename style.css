@@ -15,18 +15,21 @@
   }
   
   body {
-    background-color: #E7ECEF;
+    /*background-color: #E7ECEF;*/
+    background-color: #3B764A;
   }
   
   p {
     font-family: 'Poppins';
     font-weight: 400;
-    color: #272932;
+    /*color: #272932;*/
+    color: #FBFFFF;
   }
   
   h2 {
     font-family: 'Poppins';
     font-weight: 800;
-    color: #272932;
+    /*color: #272932;*/
+    color: #FBFFFF;
   }
   
