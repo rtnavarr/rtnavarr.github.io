@@ -33,11 +33,28 @@
     color: #FBFFFF;
   }
   
- a {
+  .link {
     color: #FBFFFF;
-    text-decoration: none;
+    position: relative;
+    transition: clip-path 275ms ease;
+    &:hover span::before, &:focus span::before {
+      clip-path: polygon(0 0, 100% 0, 100% 100%, 0 100%);
   }
 
-  a::before {
-      text-decoration-style: wavy;
+  span {
+    position: relative;
+    display: inline-block;
+    color: $white;
+    &::before {
+      position: absolute;
+      content: attr(data-content);
+      color: $white;
+      text-decoration: underline;
+      text-decoration-color: $white;
+      clip-path: polygon(0 0, 0 0, 0% 100%, 0 100%);
+      transition: clip-path 275ms ease;
+  }
+
+  span.wavy::before {
+    text-decoration-style: wavy;
   }
