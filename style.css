@@ -34,7 +34,10 @@
   }
   
  a {
-    position: relative;
     color: #FBFFFF;
     text-decoration: none;
+  }
+
+  a::before {
+      text-decoration-style: wavy;
   }
