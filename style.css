@@ -36,7 +36,7 @@
   p > a {
     position: relative;
     color: #FBFFFF;
-    text-decoration: none;
+    text-decoration-style: wavy;
   }
   
   p > a:hover {
@@ -55,11 +55,12 @@
     transform: scaleX(1);
     -webkit-transition: all 0.2s ease-in-out 0s;
     transition: all 0.2s ease-in-out 0s;
+    text-decoration-style: wavy;
   }
   
   p > a:hover:before {
     visibility: visible;
     -webkit-transform: scaleX(0);
     transform: scaleX(0);
-    text-decoration-style: wavy
+    text-decoration-style: wavy;
   }
