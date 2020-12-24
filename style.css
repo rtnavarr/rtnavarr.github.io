@@ -1,8 +1,3 @@
-$bg: #fff;
-$text: #2e2e2e;
-$blue: #2c2fe8;
-$darkblue: darken($blue, 10%);
-
 #page-content {
     width: 100vw;
   }
@@ -38,32 +33,25 @@ $darkblue: darken($blue, 10%);
     color: #FBFFFF;
   }
 
-  body {
-    @media (min-width: 48rem) {
-      font-size: 1.25em;
-    }
-  }
+  /* unvisited link */
+a:link {
+  color: #FBFFFF;
+}
 
-  .link {
-    /*position: relative;*/
-    transition: clip-path 275ms ease;
-    &:hover span::before, &:focus span::before {
-      clip-path: polygon(0 0, 100% 0, 100% 100%, 0 100%);
-    }
-  
-    span {
-      /*position: relative;*/
-      display: inline-block;
-      color: $blue;
-      &::before {
-        position: absolute;
-        content: attr(data-content);
-        /*color: $darkblue;*/
-        text-decoration: underline;
-        text-decoration-style: wavy;
-        text-decoration-color: $darkblue;
-        clip-path: polygon(0 0, 0 0, 0% 100%, 0 100%);
-        transition: clip-path 275ms ease;
-      }
-    }
-  }
+/* visited link */
+a:visited {
+  color: #FBFFFF;
+}
+
+/* mouse over link */
+a:hover {
+  color: #FBFFFF;
+  text-decoration-line: underline;
+  text-decoration-style: wavy;
+  transition: all 0.2s ease-in-out 0s;
+}
+
+/* selected link */
+a:active {
+  color: #FBFFFF;
+}
