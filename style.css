@@ -46,7 +46,6 @@ a:visited {
 /* mouse over link */
 a:hover {
   color: #FBFFFF;
-  text-decoration-line: underline;
   text-decoration-style: wavy;
   transition: all 0.2s ease-in-out 0s;
 }
