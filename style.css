@@ -16,37 +16,26 @@
   
   body {
     /*background-color: #E7ECEF;*/
-    background-color: #3B764A;
+    background-color: #FBFFFF;
   }
   
   p {
     font-family: 'Poppins';
     font-weight: 400;
     /*color: #272932;*/
-    color: #FBFFFF;
+    color: #252323;
   }
   
   h2 {
     font-family: 'Poppins';
     font-weight: 800;
     /*color: #272932;*/
-    color: #FBFFFF;
+    color: #252323;
   }
 
   :root {
-    --mainColor: #ff9800;
+    --mainColor: #a0d8d1;
   }
-  
-  /*
-  body {
-    align-items: center;
-    display: flex;
-    font-family: 'Montserrat', sans-serif;
-    font-size: 2em;
-    height: 100vh;
-    justify-content: center;
-  }
-  */
   
   a {
     background: linear-gradient(to bottom, var(--mainColor) 0%, var(--mainColor) 100%);
