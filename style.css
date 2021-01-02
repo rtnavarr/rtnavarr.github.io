@@ -23,6 +23,10 @@
     font-weight: 400;
     color: #252323;
   }
+
+  .w3-bar-item {
+    font-family: 'Poppins';
+  }
   
   h2 {
     font-family: 'Poppins';
