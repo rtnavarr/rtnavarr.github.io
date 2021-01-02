@@ -30,7 +30,7 @@
 
   .w3-content {
     font-family: 'Poppins';
-    color: #252323;
+    color: #252323 !important;
   }
   
   h2 {
