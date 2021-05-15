@@ -88,13 +88,17 @@ img {
   right: 0;
   height: 100%;
   width: 100%;
-  opacity: 0.3;
+  opacity: 0;
   transition: .5s ease;
   backface-visibility: hidden;
 }
 
 .container:hover .overlay {
   opacity: 1;
+}
+
+.image:hover .overlay {
+  opacity: 0.3;
 }
 
 .caption-text {
