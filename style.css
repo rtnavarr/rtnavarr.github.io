@@ -88,13 +88,13 @@ img {
   right: 0;
   height: 100%;
   width: 100%;
-  opacity: 0;
+  opacity: 0.3;
   transition: .5s ease;
   backface-visibility: hidden;
 }
 
 .container:hover .overlay {
-  opacity: 0.3;
+  opacity: 1;
 }
 
 .caption-text {
