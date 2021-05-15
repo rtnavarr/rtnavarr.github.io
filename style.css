@@ -97,7 +97,7 @@ img {
   opacity: 1;
 }
 
-.image:hover {
+.container:hover .image {
   opacity: 0.3;
 }
 
