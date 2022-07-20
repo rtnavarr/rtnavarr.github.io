@@ -1,4 +1,4 @@
-#page-content {
+  #page-content {
     width: 100vw;
   }
   
@@ -12,6 +12,19 @@
   
   #inner {
     width: 50vw;
+  }
+
+  #left {
+    align-items:center;
+    display: flex;
+    justify-content: center;
+    width: 35%;
+  }
+
+  #right {
+    display: flex;
+    flex-direction: column;
+    width: 65%;
   }
   
   body {
