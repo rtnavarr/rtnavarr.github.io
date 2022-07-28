@@ -140,7 +140,7 @@ img {
 
   20%,
   80% {
-    width: 11em;
+    width: 11.5em;
   }
 }
 
@@ -162,7 +162,7 @@ img {
   display: inline-block;
   position: relative;
   animation-duration: 8s;
-  animation-timing-function: steps(20, end);
+  animation-timing-function: steps(22, end);
   animation-iteration-count: infinite;
 }
 
