@@ -19,16 +19,11 @@
   }
 
   #left {
-    /*align-items:center;
-    display: flex;
-    justify-content: center;*/
     margin-right: 20px;
     width: 40%;
   }
 
   #right {
-    /*display: flex;
-    flex-direction: row;*/
     margin-left: 20px;
     width: 60%;
   }
@@ -145,7 +140,7 @@ img {
 
   20%,
   80% {
-    width: 12em;
+    width: 11em;
   }
 }
 
@@ -167,7 +162,7 @@ img {
   display: inline-block;
   position: relative;
   animation-duration: 8s;
-  animation-timing-function: steps(25, end);
+  animation-timing-function: steps(20, end);
   animation-iteration-count: infinite;
 }
 
